@@ -1,10 +1,3 @@
-//
-//  SplitItApp.swift
-//  SplitIt
-//
-//  Created by Vlad on 3/12/23.
-//
-
 import SwiftUI
 
 @main
