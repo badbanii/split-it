@@ -44,7 +44,7 @@ struct ContentView: View {
                     Section{
                         Picker("Tip percentage", selection: $tipPercentage) {
                             ForEach(tipPercentages, id: \.self) {
-                                Text($0, format: .percent).tint(.black)
+                                Text($0, format: .percent)
                             }
                         }.pickerStyle(.segmented)
                         Button("More"){
